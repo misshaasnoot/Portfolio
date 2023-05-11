@@ -13,6 +13,7 @@ body {
 
 .navbar-brand {
   color: white !important;
+  margin-top: 2px;
 }
 
 .navbar-nav .nav-link {
@@ -34,4 +35,14 @@ body {
 
 .nav-link:hover {
   text-decoration: underline;
+}
+
+.logo {
+  max-width: 30px;
+  margin-right: 8px;
+}
+
+.photo {
+  display: block;
+  max-width: 50%;
 }
