@@ -13,20 +13,22 @@ body {
 
 .navbar-brand {
   color: white !important;
-  margin-top: 2px;
+  font-size: 24px;
 }
 
 .navbar-nav .nav-link {
   color: white !important;
+  padding: 0 15px;
+
 }
 
 .btn {
   display: block;
 }
 
-#navbarNav {
+.navbar-nav {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .navbar-brand:hover {
@@ -38,7 +40,7 @@ body {
 }
 
 .logo {
-  max-width: 30px;
+  max-width: 40px;
   margin-right: 8px;
 }
 
