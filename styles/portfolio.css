@@ -6,7 +6,11 @@ body {
   font-family: var(--default-font-family);
   background-color: black;
 }
-
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--default-font-family);
+  background-color: black;
+  color: white;
+}
 .bg-dark {
   background-color: black !important;
 }
@@ -19,7 +23,6 @@ body {
 .navbar-nav .nav-link {
   color: white !important;
   padding: 0 15px;
-
 }
 
 .btn {
@@ -46,5 +49,9 @@ body {
 
 .photo {
   display: block;
-  max-width: 50%;
+  max-width: 100%;
+}
+
+h2 {
+  padding: 100px;
 }
