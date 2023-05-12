@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar-brand {
   color: white !important;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .navbar-nav .nav-link {
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .logo {
-  max-width: 40px;
+  max-width: 60px;
   margin-right: 8px;
 }
 
@@ -58,9 +58,4 @@ h2 {
 
 a {
   color: white;
-}
-
-.project-weather-app {
-  text-decoration: none;
-  color: #a8fcf4 ;
 }
