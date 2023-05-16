@@ -22,16 +22,11 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar-nav .nav-link {
   color: white !important;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .btn {
   display: block;
-}
-
-.navbar-nav {
-  display: flex;
-  flex-direction: row;
 }
 
 .navbar-brand:hover {
@@ -58,6 +53,7 @@ a {
 
 p {
   color: white;
+  margin-bottom: 50px;
 }
 
 .projects-container {
@@ -68,3 +64,12 @@ p {
 img {
   width: 100%;
 }
+
+.weather-container, .dictionary-container, .pet-container, .juniorhub-container  {
+  margin-bottom: 50px;
+}
+
+.navbar-toggler {
+  color: white !important;
+}
+
