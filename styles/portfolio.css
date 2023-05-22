@@ -49,11 +49,11 @@ h1, h2, h3, h4, h5, h6{
 
 a {
   color: white;
+  margin-bottom: 0%;
 }
 
 p {
   color: white;
-  margin-bottom: 50px;
 }
 
 .projects-container {
@@ -83,6 +83,10 @@ img {
 
 .photo-box {
   max-width: 400px;
+}
+
+h2 {
+  margin-bottom: 5%;
 }
 
 @media (max-width: 900px) {
