@@ -89,6 +89,15 @@ h2 {
   margin-bottom: 5%;
 }
 
+.technologies span{
+  color: white;
+  margin: 0 20px 0 10px;
+}
+
+.technologies {
+  line-height: 40px;
+}
+
 @media (max-width: 900px) {
   .projects-container {
     width: fit-content;
