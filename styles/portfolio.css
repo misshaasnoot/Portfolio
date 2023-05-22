@@ -88,9 +88,10 @@ img {
 @media (max-width: 900px) {
   .projects-container {
     width: fit-content;
+    margin: 20px auto;
   }
   .weather-container, .dictionary-container, .pet-container, .juniorhub-container {
-    margin: 50px;
+    margin: 20px 50px;
     width: fit-content;
   }
   .photo-box {
@@ -99,5 +100,9 @@ img {
 
   .about-text {
     padding: 0 10%;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
   }
 }
