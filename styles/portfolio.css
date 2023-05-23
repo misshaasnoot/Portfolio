@@ -4,24 +4,24 @@
 
 body {
   font-family: var(--default-font-family);
-  background-color: black;
+  background-color: white;
 }
 h1, h2, h3, h4, h5, h6{
   font-family: var(--default-font-family);
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .bg-dark {
-  background-color: black !important;
+  background-color: white !important;
 }
 
 .navbar-brand {
-  color: white !important;
-  font-size: 36px;
+  color: black !important;
+  font-size: 30px;
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: black !important;
   padding: 0 20px;
 }
 
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
   text-decoration: underline;
 }
 
-.nav-link:hover {
+a, p.project-link:hover {
   text-decoration: underline;
 }
 
@@ -48,12 +48,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a {
-  color: white;
+  color: black;
   margin-bottom: 0%;
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 .projects-container {
@@ -69,13 +69,18 @@ img {
   margin-bottom: 50px;
 }
 
-.navbar-toggler {
-  color: white !important;
+a, p  .project-link {
+  text-decoration: none;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+a .project-link:hover {
+  text-decoration: underline;
 }
+
+.navbar-toggler {
+  color: black !important;
+}
+
 
 .container-about {
   padding: 0 10%;
@@ -90,7 +95,7 @@ h2 {
 }
 
 .technologies span{
-  color: white;
+  color: black;
   margin: 0 20px 0 10px;
 }
 
@@ -98,7 +103,15 @@ h2 {
   line-height: 40px;
 }
 
-@media (max-width: 900px) {
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-link {
+  font-size: 24px;
+}
+
+@media (max-width: 990px) {
   .projects-container {
     width: fit-content;
     margin: 20px auto;
