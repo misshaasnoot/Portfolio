@@ -69,21 +69,16 @@ img {
   margin-bottom: 50px;
 }
 
-a, p  .project-link {
+a, p .project-link {
   text-decoration: none;
 }
 
-a .project-link:hover {
+a:hover {
   text-decoration: underline;
 }
 
-.navbar-toggler {
-  color: black !important;
-}
-
-
 .container-about {
-  padding: 0 10%;
+  padding: 5% 18%;
 }
 
 .photo-box {
@@ -109,6 +104,10 @@ h2 {
 
 .nav-link {
   font-size: 24px;
+}
+
+.nav-item {
+  padding: 0 15px;;
 }
 
 @media (max-width: 990px) {
