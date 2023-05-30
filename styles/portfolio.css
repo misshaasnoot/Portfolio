@@ -29,11 +29,11 @@ h1, h2, h3, h4, h5, h6{
   display: block;
 }
 
-.navbar-brand:hover {
+.navbar-brand {
   text-decoration: underline;
 }
 
-a, p.project-link:hover {
+.nav-link {
   text-decoration: underline;
 }
 
@@ -61,12 +61,18 @@ p {
   margin: 100px auto;
 }
 
+.project-text {
+  font-size: 20px;
+  padding-top: 25px;
+}
+
 img {
   width: 100%;
 }
 
 .weather-container, .dictionary-container, .pet-container, .juniorhub-container  {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+
 }
 
 a, p .project-link {
@@ -89,11 +95,15 @@ h2 {
   margin-bottom: 5%;
 }
 
-.technologies span{
+.technologies span {
   color: black;
-  margin: 0 20px 0 10px;
+  margin: 0 10px 0 5px;
 }
 
+.tech{
+  white-space: nowrap;
+
+}
 .technologies {
   line-height: 40px;
 }
@@ -115,10 +125,7 @@ h2 {
     width: fit-content;
     margin: 20px auto;
   }
-  .weather-container, .dictionary-container, .pet-container, .juniorhub-container {
-    margin: 20px 50px;
-    width: fit-content;
-  }
+
   .photo-box {
     display: none;
   }
@@ -130,4 +137,24 @@ h2 {
   .navbar-brand {
     font-size: 24px;
   }
+}
+.social-link {
+  margin: 15px 40px;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  margin-top: auto;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: underline;
 }

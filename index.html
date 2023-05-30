@@ -18,99 +18,114 @@
 
 
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg bg-white navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/"><img src="media/logo.jpg" alt="logo" class="logo">Sophie Haasnoot</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav right-aligned-list">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact.html">Contact</a>
-          </li>
-        </ul>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-white navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"><img src="media/logo.jpg" alt="logo" class="logo">Sophie Haasnoot</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav right-aligned-list">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="projects-container">
+        <div class="weather-container">
+          <a href="https://sophies-weather-app.netlify.app" class="project-link" target="_blank">
+            <h2>Weather App</h2></a>
+            <img src="media/weather-app.png" alt="weather app" class="img-fluid d-none d-md-block">
+            <p class="project-text"> HTML, CSS and Vanilla JavaScript.</p>
+        </div>
+
+        <!-- <div class="dictionary-container">
+          <h2><a href="#" class="project-link" target="_blank">Dictionary</a></h2>
+          <img src="media/weather-app.png" alt="weather app"class="img-fluid d-none d-md-block">
+          <p class="project-text m-3">This app is created with Vanilla JavaScript.</p>
+        </div> -->
+
+      <div class="pet-container">
+        <a href="https://github.com/misshaasnoot/Rent_A_Pet" class="project-link" target="_blank">
+          <h2>Rent a Pet</h2>
+          </a>
+          <div id="carousel-1" class="carousel carousel-dark slide d-none d-md-block" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/media/rent-a-pet/rp-1.png" alt="First slide">
+              </div>
+              <div class="carousel-item ">
+                <img class="d-block w-100" src="/media/rent-a-pet/rp-4.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/media/rent-a-pet/rp-3.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="/media/rent-a-pet/rp-2.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#carousel-1">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" role="button" data-bs-slide="next" data-bs-target="#carousel-1">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+
+          </div>
+          <p class="project-text">Rent a Pet is a prototype for a online pet rental platfrom with a structure similar to that of AirBnb's, created for the purposes of practice. Users can view, search for and request to rent a pet for selected dates. They can also create their own listings and accept or reject booking requests from other users. This website is created using HTML, CSS and Ruby on Rails.</p>
       </div>
-    </div>
-  </nav>
-  <div class="projects-container">
-    <div class="weather-container">
-      <a href="https://sophies-weather-app.netlify.app" class="project-link" target="_blank">
-        <h2>Weather App</h2></a>
-        <img src="media/weather-app.png" alt="weather app" class="img-fluid d-none d-md-block">
-        <p class="project-text m-3"> HTML, CSS and Vanilla JavaScript.</p>
-    </div>
 
-    <!-- <div class="dictionary-container">
-      <h2><a href="#" class="project-link" target="_blank">Dictionary</a></h2>
-      <img src="media/weather-app.png" alt="weather app"class="img-fluid d-none d-md-block">
-      <p class="project-text m-3">This app is created with Vanilla JavaScript.</p>
-    </div> -->
-
-    <div class="pet-container">
-      <a href="https://github.com/misshaasnoot/Rent_A_Pet" class="project-link" target="_blank">
-        <h2>Rent a Pet</h2> </a>
-        <div id="carousel-1" class="carousel carousel-dark slide d-none d-md-block" data-ride="carousel">
+      <div class="juniorhub-container">
+          <a href="https://github.com/misshaasnoot/juniorhub-sophie" class="project-link" target="_blank"><h2>JuniorHub</h2></a>
+        <div id="carousel-2" class="carousel carousel-dark slide d-none d-md-block" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="/media/rent-a-pet/rp-1.png" alt="First slide">
+              <img class="d-block w-100" src="/media/juniorhub/jh-1.png" alt="First slide">
             </div>
             <div class="carousel-item ">
-              <img class="d-block w-100" src="/media/rent-a-pet/rp-4.png" alt="Second slide">
+              <img class="d-block w-100" src="/media/juniorhub/jh-2.png" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="/media/rent-a-pet/rp-3.png" alt="Third slide">
+              <img class="d-block w-100" src="/media/juniorhub/jh-3.png" alt="Third slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="/media/rent-a-pet/rp-2.png" alt="Third slide">
+              <img class="d-block w-100" src="/media/juniorhub/jh-4.png" alt="Third slide">
             </div>
           </div>
-          <a class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#carousel-1">
+          <a class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#carousel-2">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </a>
-          <a class="carousel-control-next" role="button" data-bs-slide="next" data-bs-target="#carousel-1">
+          <a class="carousel-control-next" role="button" data-bs-slide="next" data-bs-target="#carousel-2">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </a>
         </div>
-        <p class="project-text m-3">Rent a Pet is a prototype for a online pet rental platfrom with a structure similar to that of AirBnb's, created for the purposes of practice. Users can view, search for and request to rent a pet for selected dates. They can also create their own listings and accept or reject booking requests from other users. This website is created using HTML, CSS and Ruby on Rails.</p>
-    </div>
-
-    <div class="juniorhub-container">
-        <a href="https://github.com/misshaasnoot/juniorhub-sophie" class="project-link" target="_blank"><h2>JuniorHub</h2></a>
-      <div id="carousel-2" class="carousel carousel-dark slide d-none d-md-block" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="/media/juniorhub/jh-1.png" alt="First slide">
-          </div>
-          <div class="carousel-item ">
-            <img class="d-block w-100" src="/media/juniorhub/jh-2.png" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="/media/juniorhub/jh-3.png" alt="Third slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="/media/juniorhub/jh-4.png" alt="Third slide">
-          </div>
+          <p class="project-text">JuniorHub is a job platform created to help companies find and hire junior developers, while also allowing the latter to advertise their services. The platform has an application system, direct messaging function, search function and personal profile creation. It is created using HTML, CSS, JavaScript and Ruby on Rails. </p>
         </div>
-        <a class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#carousel-2">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" role="button" data-bs-slide="next" data-bs-target="#carousel-2">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </a>
       </div>
-
-
-      <p class="project-text m-3">JuniorHub is a job platform created to help companies find and hire junior developers, while also allowing the latter to advertise their services. The platform has an application system, direct messaging function, search function and personal profile creation. It is created using hTML, CSS, JavaScript and Ruby on Rails. </p>
-    </div>
   </div>
+  <footer>
+    <div class="social-links d-flex justify-content-center">
+      <a href="mailto:ms.haasnoot@gmail.com" class="social-link">
+        E-mail
+      </a>
+      <a href="https://www.linkedin.com/in/sophiehaasnoot/" class="social-link">
+        LinkedIn
+      </a>
+      <a href="https://github.com/misshaasnoot" class="social-link">
+        GitHub
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
