@@ -29,14 +29,6 @@ h1, h2, h3, h4, h5, h6{
   display: block;
 }
 
-.navbar-brand {
-  text-decoration: underline;
-}
-
-.nav-link {
-  text-decoration: underline;
-}
-
 .logo {
   max-width: 60px;
   margin-right: 8px;
@@ -58,7 +50,7 @@ p {
 
 .projects-container {
   width: 800px;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 .project-text {
@@ -153,8 +145,4 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-a {
-  text-decoration: underline;
 }
