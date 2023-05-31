@@ -146,3 +146,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.contact-container h2 {
+  text-align: center;
+  margin-top: 15%;
+}
